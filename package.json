@@ -1,7 +1,7 @@
 {
   "name": "language-vuejs",
   "main": "./lib/main",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "atom vuejs 开发必用插件 by youngjuning",
   "keywords": [
     "vuejs",

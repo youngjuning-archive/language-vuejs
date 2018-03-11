@@ -19,6 +19,8 @@ vue: {
 
 This is so that this package can support both old Sass and new SCSS. Refer to [hedefalk/atom-vue#5](https://github.com/hedefalk/atom-vue/issues/5) and [the official solution](https://github.com/vuejs-templates/webpack/blob/45c5ee5531a6f649c21aa2ec05472fb459247927/template/build/utils.js#L37-L38) for more info.
 
-## 基于
+## 巨人的肩膀
 
-- language-vue
+- [language-vue](https://atom.io/packages/language-vue)
+- [vuejs2-snippets](https://atom.io/packages/vuejs2-snippets)
+- [vue2-autocomplete](https://atom.io/packages/vue2-autocomplete)

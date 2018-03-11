@@ -1,6 +1,5 @@
 {
   "name": "language-vuejs",
-  "main": "./lib/main",
   "version": "0.1.0",
   "description": "atom vuejs 开发必用插件 by youngjuning",
   "keywords": [
@@ -11,15 +10,5 @@
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
-  },
-  "dependencies": {
-    "fuzzaldrin": "^2.1.0"
-  },
-  "providedServices": {
-    "autocomplete.provider": {
-      "versions": {
-        "2.0.0": "getProvider"
-      }
-    }
   }
 }

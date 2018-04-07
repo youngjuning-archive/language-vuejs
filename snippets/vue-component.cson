@@ -1,49 +1,142 @@
 '.text.html.vue':
+  'Vue Scaffold':
+    'prefix': 'scaffold'
+    'body': """
+      <template>
+
+      </template>
+
+      <script>
+      export default {
+
+      }
+      </script>
+
+      <style>
+
+      </style>
+    """
   'Vue Template Tag':
     'prefix': 'vtemplate',
     'body': """
-    <template${1: lang="$2"}>$0</template>
+      <template${1: lang="$2"}>
+        $3
+      </template>
+    """
+  'template with html':
+    'prefix': 'template with html'
+    'body': """
+      <template>
+        $1
+      </template>
+    """
+  'template with pug':
+    'prefix': ''
+    'body': """
+      <template lang="pug">
+        $1
+      </template>
+    """
+  'script with javascript':
+    'prefix': 'script with Javascript'
+    'body': """
+      <script>
+      export default {
+        $1
+      }
+      </script>
+    """
+  'script with Yypescript':
+    'prefix': ''
+    'body': """
+      <script lang="ts">
+      export default {
+        $1
+      }
+      </script>
     """
   'Vue Script Tag':
     'prefix': 'vscript',
     'body': """
-    <script${1: lang="$2"}>
-    \texport default {
-    \t\t// Options / Data
-    \t\t// data () { return {} },
-    \t\t// props: [],
-    \t\t// propsData: {},
-    \t\t// computed: {},
-    \t\t// methods: {},
-    \t\t// watch: {},
-    \t\t// Options / DOM
-    \t\t// el () {},
-    \t\t// template: '',
-    \t\t// render () {},
-    \t\t// Options / Lifecycle Hooks
-    \t\t// beforeCreate () {},
-    \t\t// created () {},
-    \t\t// beforeMount () {},
-    \t\t// mounted () {},
-    \t\t// beforeUpdate () {},
-    \t\t// updated () {},
-    \t\t// activated () {},
-    \t\t// deactivated () {},
-    \t\t// beforeDestroy () {},
-    \t\t// destroyed () {},
-    \t\t// Options / Assets
-    \t\t// directives: {},
-    \t\t// filters: {},
-    \t\t// components: {},
-    \t\t// Options / Misc
-    \t\t// parent: null,
-    \t\t// mixins: [],
-    \t\t// name: '',
-    \t\t// extends: {},
-    \t\t// delimiters: [ '{{', '}}' ],
-    \t\t// functional: false
-    \t}
-    </script>
+      <script${1: lang="$2"}>
+        export default {
+          // Options / Data
+          // data () { return {} },
+          // props: [],
+          // propsData: {},
+          // computed: {},
+          // methods: {},
+          // watch: {},
+          // Options / DOM
+          // el () {},
+          // template: '',
+          // render () {},
+          // Options / Lifecycle Hooks
+          // beforeCreate () {},
+          // created () {},
+          // beforeMount () {},
+          // mounted () {},
+          // beforeUpdate () {},
+          // updated () {},
+          // activated () {},
+          // deactivated () {},
+          // beforeDestroy () {},
+          // destroyed () {},
+          // Options / Assets
+          // directives: {},
+          // filters: {},
+          // components: {},
+          // Options / Misc
+          // parent: null,
+          // mixins: [],
+          // name: '',
+          // extends: {},
+          // delimiters: [ '{{', '}}' ],
+          // functional: false
+        }
+      </script>
+    """
+  'style with css':
+    'prefix': 'style'
+    'body': """
+      <style>
+      $1
+      </style>
+    """
+  'style with css (scoped)':
+    'prefix': 'style with css (scoped)'
+    'body': """
+      <style scoped>
+      $1
+      </style>
+    """
+  'style with less':
+    'prefix': 'style with less'
+    'body': """
+      <style lang="less">
+      $1
+      </style>
+    """
+  'style with less (scoped)':
+    'prefix': 'style with less (scoped)'
+    'body': """
+      <style lang="less" scoped>
+      $1
+      </style>
+    """
+  'style with scss':
+    'prefix': 'style with scss'
+    'body': """
+      <style lang="scss">
+      $1
+      </style>
+    """
+  'style with scss (scoped)':
+    'prefix': 'style with scss (scoped)'
+    'body': """
+      <style lang="scss" scoped>
+      $1
+      </style>
     """
   'Vue Style Tag':
     'prefix': 'vstyle',

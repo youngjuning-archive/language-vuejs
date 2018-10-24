@@ -1,40 +1,19 @@
 ".text.html.vue":
   "Component include":
-    "prefix": "component"
+    "prefix": "v-component"
     "body": "<${1:componentName}>$2</${1:componentName}>"
     "description": "Use a component in a template file"
     "descriptionMoreURL": "https://vuejs.org/v2/guide/components.html"
   "Router View":
-    "prefix": "router-view"
+    "prefix": "v-router-view"
     "body": "<router-view name=\"${1:routeName}\">$2</router-view>"
     "description": "Vuejs router-view component"
     "descriptionMoreURL": "https://router.vuejs.org/en/api/router-view.html"
   'Router Link':
-    'prefix': 'router-link'
+    'prefix': 'v-router-link'
     'body': '<router-link :to=\"{ name: \'${1:routeName}\', params: { ${2:property}: ${3:value}}}\">$4</router-link>'
     'description': 'Vuejs router-link component with named route'
     'descriptionMoreURL': 'https://router.vuejs.org/en/api/router-link.html'
-  "Vue Component template":
-    "prefix": "template"
-    "body": """
-      <template>
-        <div id="$1">
-
-        </div>
-      </template>
-      <script>
-      export default {
-        name: "$2",
-        data: () => ({
-
-        })
-      }
-      </script>
-      <style${3: lang="${4:scss}"} ${5:scoped}>
-      </style>
-    """
-    "description": "Single file component template"
-    "descriptionMoreURL": "https://vuejs.org/v2/guide/single-file-components.html"
   "Internationalization component":
     "prefix": "i18n",
     "body": """
@@ -204,15 +183,6 @@
     """
     'description': 'Vuejs methods event handlers'
     'descriptionMoreURL': 'https://vuejs.org/v2/guide/events.html#Method-Event-Handlers'
-  'Vuejs data':
-    'prefix': 'vdata'
-    'body': """
-    data: () => ({
-      $1
-    })
-    """
-    'description': 'Vuejs data must be a function'
-    'descriptionMoreURL': 'https://vuejs.org/v2/guide/components.html#data-Must-Be-a-Function'
   'Vuejs components include':
     'prefix': 'components'
     'body': """

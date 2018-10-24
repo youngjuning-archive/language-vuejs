@@ -15,9 +15,9 @@
         },
         computed: {
         },
-        created: {
+        created() {
         },
-        mounted: {
+        mounted() {
         },
         methods: {
           $2

@@ -115,7 +115,7 @@
     'body': """
     data: () => ({
       $1
-    })
+    }),
     """
     'description': 'Vuejs data must be a function'
     'descriptionMoreURL': 'https://vuejs.org/v2/guide/components.html#data-Must-Be-a-Function'

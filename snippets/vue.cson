@@ -23,48 +23,36 @@
     """
     'description': '每个 Vue 应用都是通过用 Vue 函数创建一个新的 Vue 实例开始的'
     'descriptionMoreURL': 'http://t.cn/Ra8Gc6k'
-'.source.html,.text.html.vue'  
+'.source.html,.text.html.vue':
   # 指令
   'v-text':
     'prefix': 'v-text'
-    'body': """
-      v-text="$1"
-    """
+    'body': 'v-text="$1"'
     'description': '更新元素的 textContent'
     'descriptionMoreURL': 'http://t.cn/Ewb26i5'
   'v-html':
     'prefix': 'v-html'
-    'body': """
-      v-html="$1"
-    """
+    'body': 'v-html="$1"'
     'description': '更新元素的 innerHTML'
     'descriptionMoreURL': 'http://t.cn/RgN6VbT'
   'v-show':
     'prefix': 'v-show'
-    'body': """
-      v-show="$1"
-    """
+    'body': 'v-show="$1"'
     'description': '根据表达式之真假值，切换元素的 display CSS 属性'
     'descriptionMoreURL': 'http://t.cn/EwbLVO7'
   'v-if':
     'prefix': 'v-if'
-    'body': """
-      v-if="$1"
-    """
+    'body': 'v-if="$1"'
     'description': '根据表达式的值的真假条件渲染元素。'
     'descriptionMoreURL': 'http://t.cn/Rgt4mEL'
   'v-else':
     'prefix': 'v-else'
-    'body': """
-      v-else
-    """
+    'body': 'v-else'
     'description': '前一兄弟元素必须有 v-if 或 v-else-if'
     'descriptionMoreURL': 'http://t.cn/EwbUYe2'
   'v-else-if':
     'prefix': 'v-else-if'
-    'body': """
-      v-else-if
-    """
+    'body': 'v-else-if'
     'description': '前一兄弟元素必须有 v-if 或 v-else-if'
     'descriptionMoreURL': 'http://t.cn/EwbU88u'
   'v-for':
@@ -76,37 +64,27 @@
     'descriptionMoreURL': 'http://t.cn/Ewb49bR'  
   '@click':
     'prefix': 'v-on-click'
-    'body': """
-      @click = "$1"
-    """
+    'body': '@click = "$1"'
     'description': '绑定事件监听器。'
     'descriptionMoreURL': 'http://t.cn/R3KvnaL'
   '@submit':
     'prefix': 'v-on-click'
-    'body': """
-      @submit = "$1"
-    """
+    'body': '@submit = "$1"'
     'description': '绑定事件监听器。'
     'descriptionMoreURL': 'http://t.cn/R3KvnaL'
   'v-bind':
     'prefix': 'v-bind'
-    'body': """
-      :$1 = "$2"
-    """
+    'body': ':$1 = "$2"'
     'description': '动态地绑定一个或多个特性，或一个组件 prop 到表达式'
     'descriptionMoreURL': 'http://t.cn/R3KvnaL'
   'v-model':
     'prefix': 'v-model'
-    'body': """
-      v-model = "$1"
-    """
+    'body': 'v-model = "$1"'
     'description': '在表单控件或者组件上创建双向绑定'
     'descriptionMoreURL': 'http://t.cn/Ewb4gT0'  
   'v-cloak':
     'prefix': 'v-cloak'
-    'body': """
-      v-cloak
-    """
+    'body': 'v-cloak'
     'description': '这个指令保持在元素上直到关联实例结束编译'
     'descriptionMoreURL': 'http://t.cn/Ewbb45y'
   'v-cloak-style':
@@ -120,8 +98,6 @@
     'descriptionMoreURL': 'http://t.cn/Ewbb45y'
   'v-once':
     'prefix': 'v-once'
-    'body': """
-      v-once
-    """
+    'body': 'v-once'
     'description': '只渲染元素和组件一次'
     'descriptionMoreURL': 'http://t.cn/Ewbb3Yy'  

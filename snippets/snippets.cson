@@ -28,41 +28,6 @@
     "description": "Per component translation"
     "descriptionMoreURL": "http://kazupon.github.io/vue-i18n/en/sfc.html"
 
-".meta.tag":
-  'v-for':
-    'prefix': 'v-for'
-    'body': 'v-for=\"${1:elem} in ${2:elemArray}\" :key=\"${1:elem}.${3:key}\"'
-    'description': 'Vuejs binding for list rendering'
-    'descriptionMoreURL': 'https://vuejs.org/v2/guide/list.html#v-for'
-  'v-if':
-    'prefix': 'v-if'
-    'body': 'v-if=\"${1:condition}\"'
-    'description': 'Vuejs binding for if conditional rendering'
-    'descriptionMoreURL': 'https://vuejs.org/v2/guide/conditional.html#v-if'
-  'v-show':
-    'prefix': 'v-show'
-    'body': 'v-show=\"${1:condition}\"'
-    'description': 'Vuejs binding for show conditional rendering'
-    'descriptionMoreURL': 'https://vuejs.org/v2/guide/conditional.html#v-show'
-  'v-else-if':
-    'prefix': 'v-else-if'
-    'body': 'v-else-if=\"${1:condition}\"'
-    'description': 'Vuejs binding for else-if conditional rendering'
-    'descriptionMoreURL': 'https://vuejs.org/v2/guide/conditional.html#v-else-if'
-  'v-else':
-    'prefix': 'v-else'
-    'body': 'v-else'
-    'description': 'Vuejs binding for else conditional rendering'
-    'descriptionMoreURL': 'https://vuejs.org/v2/guide/conditional.html#v-else'
-  'v-model':
-    'prefix': 'v-model'
-    'body': 'v-model=\"${1:model}\"'
-    'description': 'Vuejs binding for model binding'
-    'descriptionMoreURL': 'https://vuejs.org/v2/guide/forms.html'
-  'v-bind':
-    'prefix': 'v-bind'
-    'body': ':${1:attribute}=\"${2}\"'
-
 '.source.js':
   'Vue computed':
     'prefix': 'vcomputed'
@@ -213,7 +178,7 @@
     'description': 'Vuejs way to pass data to child components with validation'
     'descriptionMoreURL': 'https://vuejs.org/v2/guide/components.html#Prop-Validation'
 
-'.source.js.jsx':
+'.source.js':
   'Store template':
     'prefix': 'vstore'
     'body': """

@@ -3,31 +3,31 @@
     'prefix': 'v-scaffold'
     'body': """
       <template>
-
+        <div>
+          
+        </div>
       </template>
 
       <script>
       export default {
-        data: () => ({
-          $1
-        }),
-        components: {
+        components: {},
+        props: {},
+        data() { 
+          return {
+            
+          }
         },
-        computed: {
-        },
-        created() {
-        },
-        mounted() {
-        },
-        methods: {
-          $2
-        },
+        computed: {},
+        methods: {},
+        created() {},
+        mounted() {},
       }
       </script>
 
       <style lang='scss' scoped>
 
       </style>
+      
     """
   'vue Template Tag':
     'prefix': 'v-template',
@@ -113,9 +113,11 @@
   'vuejs data':
     'prefix': 'v-data'
     'body': """
-    data: () => ({
-      $1
-    }),
+    data() {
+      return {
+        
+      }
+    },
     """
-    'description': 'Vuejs data must be a function'
-    'descriptionMoreURL': 'https://vuejs.org/v2/guide/components.html#data-Must-Be-a-Function'
+    'description': '组件的定义只接受 function'
+    'descriptionMoreURL': 'http://t.cn/Ewbyihv'

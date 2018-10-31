@@ -23,6 +23,7 @@
     """
     'description': '每个 Vue 应用都是通过用 Vue 函数创建一个新的 Vue 实例开始的'
     'descriptionMoreURL': 'http://t.cn/Ra8Gc6k'
+
 '.text.html.basic,.text.html.vue':
   # 指令
   'v-text':
@@ -87,8 +88,15 @@
     'body': 'v-cloak'
     'description': '这个指令保持在元素上直到关联实例结束编译'
     'descriptionMoreURL': 'http://t.cn/Ewbb45y'
-  'v-cloak-style':
-    'prefix': 'v-cloak-style'
+  'v-once':
+    'prefix': 'v-once'
+    'body': 'v-once'
+    'description': '只渲染元素和组件一次'
+    'descriptionMoreURL': 'http://t.cn/Ewbb3Yy'  
+  
+'.source.css.embedded.html': 
+  'v-cloak':
+    'prefix': 'v-cloak'
     'body': """
       [v-clock] {
         display: none;
@@ -96,8 +104,3 @@
     """
     'description': '这个指令保持在元素上直到关联实例结束编译'
     'descriptionMoreURL': 'http://t.cn/Ewbb45y'
-  'v-once':
-    'prefix': 'v-once'
-    'body': 'v-once'
-    'description': '只渲染元素和组件一次'
-    'descriptionMoreURL': 'http://t.cn/Ewbb3Yy'  

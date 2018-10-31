@@ -5,7 +5,7 @@
       var vm = new Vue({
         el: '#$1',
         data: {
-          $1
+          $2
         },
         computed: {
           

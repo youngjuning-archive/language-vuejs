@@ -1,4 +1,4 @@
-".source.html":
+".source.js.embedded.html":
   '创建一个 Vue 实例':
     'prefix': 'vue-vm'
     'body': """
@@ -23,7 +23,7 @@
     """
     'description': '每个 Vue 应用都是通过用 Vue 函数创建一个新的 Vue 实例开始的'
     'descriptionMoreURL': 'http://t.cn/Ra8Gc6k'
-'.source.html,.text.html.vue':
+'.text.html.basic,.text.html.vue':
   # 指令
   'v-text':
     'prefix': 'v-text'

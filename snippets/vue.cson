@@ -65,24 +65,29 @@
     'descriptionMoreURL': 'http://t.cn/Ewb49bR'  
   '@click':
     'prefix': 'v-on-click'
-    'body': '@click = "$1"'
-    'description': '绑定事件监听器。'
+    'body': '@click="$1"'
+    'description': '绑定click事件监听器。'
     'descriptionMoreURL': 'http://t.cn/R3KvnaL'
   '@submit':
     'prefix': 'v-on-submit'
-    'body': '@submit = "$1"'
-    'description': '绑定事件监听器。'
+    'body': '@submit="$1"'
+    'description': '绑定submit事件监听器。'
+    'descriptionMoreURL': 'http://t.cn/R3KvnaL'
+  '@change':
+    'prefix': 'v-on-change'
+    'body': '@change="$1"'
+    'description': '绑定change事件监听器。'
     'descriptionMoreURL': 'http://t.cn/R3KvnaL'
   'v-bind':
     'prefix': 'v-bind'
-    'body': ':$1 = "$2"'
+    'body': ':$1="$2"'
     'description': '动态地绑定一个或多个特性，或一个组件 prop 到表达式'
     'descriptionMoreURL': 'http://t.cn/R3KvnaL'
   'v-model':
     'prefix': 'v-model'
-    'body': 'v-model = "$1"'
+    'body': 'v-model="$1"'
     'description': '在表单控件或者组件上创建双向绑定'
-    'descriptionMoreURL': 'http://t.cn/Ewb4gT0'  
+    'descriptionMoreURL': 'http://t.cn/Ewb4gT0'
   'v-cloak':
     'prefix': 'v-cloak'
     'body': 'v-cloak'
@@ -93,7 +98,12 @@
     'body': 'v-once'
     'description': '只渲染元素和组件一次'
     'descriptionMoreURL': 'http://t.cn/Ewbb3Yy'  
-  
+
+'.punctuation.definition.tag.begin.html':
+  '插值表达式':
+    'prefix': 'v-text'
+    'body': '{{$1}}'
+      
 '.source.css.embedded.html': 
   'v-cloak':
     'prefix': 'v-cloak'

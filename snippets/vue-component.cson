@@ -4,7 +4,7 @@
     'body': """
       <template>
         <div>
-          
+          $1
         </div>
       </template>
 
@@ -14,7 +14,7 @@
         props: {},
         data() { 
           return {
-            
+            $2
           }
         },
         computed: {},
@@ -25,7 +25,7 @@
       </script>
 
       <style lang='scss' scoped>
-
+        $3
       </style>
       
     """

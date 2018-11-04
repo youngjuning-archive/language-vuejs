@@ -69,7 +69,7 @@
     'description': '绑定事件监听器。'
     'descriptionMoreURL': 'http://t.cn/R3KvnaL'
   '@submit':
-    'prefix': 'v-on-click'
+    'prefix': 'v-on-submit'
     'body': '@submit = "$1"'
     'description': '绑定事件监听器。'
     'descriptionMoreURL': 'http://t.cn/R3KvnaL'

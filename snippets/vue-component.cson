@@ -4,7 +4,7 @@
     'body': """
       <template>
         <div>
-          $1
+
         </div>
       </template>
 
@@ -12,20 +12,20 @@
       export default {
         components: {},
         props: {},
-        data() { 
+        data () {
           return {
-            $2
+
           }
         },
         computed: {},
         methods: {},
-        created() {},
-        mounted() {},
+        created () {},
+        mounted () {},
       }
       </script>
 
       <style lang='scss' scoped>
-        $3
+
       </style>
       
     """

@@ -4,23 +4,23 @@
     'body': """
       <template>
         <div>
-
+          $1
         </div>
       </template>
 
       <script>
       export default {
-        components: {},
-        props: {},
         data () {
           return {
-
+            $2
           }
         },
-        computed: {},
-        methods: {},
         created () {},
         mounted () {},
+        components: {},
+        props: {},
+        methods: {},
+        computed: {},
       }
       </script>
 
